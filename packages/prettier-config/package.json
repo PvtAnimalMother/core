@@ -1,5 +1,5 @@
 {
-  "name": "@pvtanimalmother/typescript-config",
+  "name": "@pvtanimalmother/prettier-config",
   "license": "MIT",
   "version": "1.0.0",
   "private": true,
@@ -14,11 +14,13 @@
     "access": "public"
   },
   "files": [
-    "base.json",
-    "react.json",
-    "next.json"
+    "prettier.js"
   ],
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
   "peerDependencies": {
-    "typescript": "^5.5.4"
+    "prettier": "^3.3.3"
   }
 }

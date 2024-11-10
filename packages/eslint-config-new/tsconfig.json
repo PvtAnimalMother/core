@@ -1,0 +1,10 @@
+{
+  "extends": "@pvtanimalmother/typescript-config/base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules"],
+  "include": ["**/*.ts"]
+}
