@@ -1,0 +1,28 @@
+{
+  "name": "@pvtanimalmother/eslint-config",
+  "license": "MIT",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Pvt.AnimalMother",
+    "url": "https://github.com/PvtAnimalMother"
+  },
+  "repository": {
+    "url": "https://github.com/PvtAnimalMother/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.9.0",
+    "eslint": "^9.14.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0"
+  }
+}

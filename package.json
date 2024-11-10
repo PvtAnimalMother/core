@@ -1,0 +1,31 @@
+{
+  "name": "pvtanimalmother-core",
+  "license": "MIT",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Pvt.AnimalMother",
+    "url": "https://github.com/PvtAnimalMother"
+  },
+  "repository": {
+    "url": "https://github.com/PvtAnimalMother/core"
+  },
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.2.3",
+    "typescript": "5.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "packages/*"
+  ]
+}

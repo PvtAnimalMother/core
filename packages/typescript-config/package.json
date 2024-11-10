@@ -1,0 +1,24 @@
+{
+  "name": "@pvtanimalmother/typescript-config",
+  "license": "MIT",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Pvt.AnimalMother",
+    "url": "https://github.com/PvtAnimalMother"
+  },
+  "repository": {
+    "url": "https://github.com/PvtAnimalMother/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "base.json",
+    "react.json",
+    "next.json"
+  ],
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
